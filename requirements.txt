@@ -1,0 +1,6 @@
+telethon
+aiogram
+google-genai
+python-dotenv
+pydantic-settings
+structlog
