@@ -12,21 +12,30 @@ class AIClient:
     def __init__(self):
         # Initializing the client with the API key
         self.client = genai.Client(api_key=settings.GEMINI_KEY)
-        self.model_id = "gemini-2.0-flash-lite-preview-02-05"
+        self.model_id = "gemini-robotics-er-1.5-preview"
 
     async def analyze_vacancy(self, text: str) -> dict | None:
         """
         Analyzes vacancy text and returns structured data using Gemini 2.0 Flash Lite.
+        Focuses on JUNIOR positions.
         """
-        system_instruction = "You are an HR analyst and negotiation expert."
+        system_instruction = (
+            "You are an HR analyst and career coach specializing in helping Junior developers. "
+            "Your tone is professional yet energetic. You understand Chris Voss's 'Never Split the Difference' methodology."
+        )
         
         prompt = f"""
-        Analyze the following job vacancy.
+        Analyze the following job vacancy. 
+        IMPORTANT: This is for a JUNIOR developer.
         
         Task:
-        1. Evaluate the vacancy (score 1-10) based on relevance and quality.
-        2. Write a Cover Letter using Chris Voss methodology (Labeling: "Здається, ви шукаєте...", Calibrated Question at the end).
-        3. Identify any red flags.
+        1. Evaluate the vacancy (score 1-10). Give points for: clear Junior role, mentorship, modern stack. 
+           Subtract points if it looks like they want a Senior for a Junior salary.
+        2. Write a Cover Letter using Chris Voss methodology:
+           - Use Labeling: "Здається, ви шукаете когось, кто вже має досвід з React, але готовий швидко вчитися..."
+           - Use a Calibrated Question at the end: "Як на вашу думку, чи можу я принести користь вашій команді з моїм запалом до навчання?"
+           - Keep it short and human.
+        3. Identify red flags (no salary, long interview process, etc.).
         
         Output MUST be a STRICT JSON object:
         {{

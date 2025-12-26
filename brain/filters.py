@@ -7,12 +7,14 @@ class ContentFilter:
     
     STOP_WORDS = [
         r"casino", r"crypto", r"sales", r"gambling", r"office",
-        r"казино", r"крипта", r"продажи", r"гемблинг", r"офис"
+        r"казино", r"крипта", r"продажи", r"гемблинг", r"офис",
+        r"middle", r"senior", r"lead", r"architect", r"staff", r"principal",
+        r"мидл", r"сеньор", r"тимлид"
     ]
     
     KEY_WORDS = [
-        r"react", r"frontend", r"js", r"typescript", r"next\.js",
-        r"python", r"backend", r"node" 
+        r"junior", r"джуниор", r"джун", r"intern", r"стажер",
+        r"react", r"frontend", r"js", r"typescript", r"next\.js"
     ]
 
     @classmethod

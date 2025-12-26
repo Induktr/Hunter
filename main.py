@@ -1,34 +1,29 @@
 import asyncio
 from core.logger import logger
 from ears.listener import listener
-from mouth.notifier import notifier
+from ears.linkedin_listener import linkedin_listener
+from ears.djinni_listener import djinni_listener
+from ears.upwork_listener import upwork_listener
 
 async def main():
     """
-    Main entry point. Runs both Telethon and Aiogram events if needed.
+    Main entry point. Runs Telegram, LinkedIn, Djinni and Upwork listeners.
     """
-    logger.info("🚀 Hunter AI Job Sniper is starting...")
-    
-    # --- TEST BLOCK ---
-    # Sending a test notification to verify connectivity and formatting
-    logger.info("Sending test notification to admin...")
-    test_data = {
-        "score": 10,
-        "company": "TEST COMPANY (Hunter AI)",
-        "salary": "$5000 - $8000",
-        "cover_letter": "Здається, ви шукаєте ідеальний тест... Чи буде критично, если все запрацює з першого разу?",
-        "red_flags": ["Test Flag 1", "Everything looks too good"]
-    }
-    await notifier.send_vacancy_alert(test_data, "https://github.com/google/antigravity")
-    # ------------------
+    logger.info("🚀 Hunter AI Job Sniper is starting (TG + LI + DJ + UP)...")
     
     while True:
         try:
-            await listener.start()
+            # Запускаем все слушатели параллельно
+            await asyncio.gather(
+                listener.start(),
+                linkedin_listener.start(),
+                djinni_listener.start(),
+                upwork_listener.start()
+            )
         except Exception as e:
             logger.error(f"Critical error in main loop: {e}")
-            logger.info("Attempting to restart in 10 seconds...")
-            await asyncio.sleep(10)
+            logger.info("Attempting to restart in 15 seconds...")
+            await asyncio.sleep(15)
         except KeyboardInterrupt:
             logger.info("System stopped by user.")
             break
