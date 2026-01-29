@@ -1,11 +1,11 @@
 import asyncio
 import httpx
 from bs4 import BeautifulSoup
-from config.settings import settings
-from core.logger import logger
-from brain.filters import ContentFilter
-from brain.ai_client import ai_client
-from mouth.notifier import notifier
+from src.shared.config.settings import settings
+from src.shared.core.logger import logger
+from src.features.brain.filters import ContentFilter
+from src.shared.api.ai_client import ai_client
+from src.features.mouth.notifier import notifier
 
 class LinkedinListener:
     """

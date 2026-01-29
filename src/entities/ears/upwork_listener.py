@@ -2,11 +2,11 @@ import asyncio
 import httpx
 import re
 from bs4 import BeautifulSoup
-from config.settings import settings
-from core.logger import logger
-from brain.filters import ContentFilter
-from brain.ai_client import ai_client
-from mouth.notifier import notifier
+from src.shared.config.settings import settings
+from src.shared.core.logger import logger
+from src.features.brain.filters import ContentFilter
+from src.shared.api.ai_client import ai_client
+from src.features.mouth.notifier import notifier
 
 class UpworkListener:
     """
@@ -86,12 +86,21 @@ class UpworkListener:
 
         async with httpx.AsyncClient(headers=self.headers, timeout=20) as client:
             response = await client.get(self.base_url, params=params)
+            
             if response.status_code != 200:
+                logger.warning(f"Upwork: Request failed for {keyword} with status {response.status_code}. Check Cookie!")
                 return
 
             soup = BeautifulSoup(response.text, "html.parser")
             # Upwork standard job card selector
             job_cards = soup.find_all("section", class_="up-card-section")
+            
+            if not job_cards:
+                 # Check if we were redirected to login
+                if "Log In" in response.text or "Sign Up" in response.text:
+                    logger.error("Upwork: Cookie EXPIRED. Redirected to Login page. Update .env!")
+                else:
+                    logger.warning(f"Upwork: Connection OK (200), but NO jobs found for '{keyword}'. Selectors might be broken.")
 
             for card in job_cards:
                 try:

@@ -1,8 +1,8 @@
 import json
 from google import genai
 from google.genai import types
-from config.settings import settings
-from core.logger import logger
+from src.shared.config.settings import settings
+from src.shared.core.logger import logger
 
 class AIClient:
     """
@@ -12,30 +12,29 @@ class AIClient:
     def __init__(self):
         # Initializing the client with the API key
         self.client = genai.Client(api_key=settings.GEMINI_KEY)
-        self.model_id = "gemini-robotics-er-1.5-preview"
+        self.model_id = "gemini-3-flash-preview"
 
     async def analyze_vacancy(self, text: str) -> dict | None:
         """
         Analyzes vacancy text and returns structured data using Gemini 2.0 Flash Lite.
-        Focuses on JUNIOR positions.
+        Focuses on JUNIOR positions and MARKETING the user's portfolio.
         """
         system_instruction = (
-            "You are an HR analyst and career coach specializing in helping Junior developers. "
-            "Your tone is professional yet energetic. You understand Chris Voss's 'Never Split the Difference' methodology."
+            "You are an active Career Agent for a Junior Frontend Developer. "
+            "Your Goal: Convert job views into Portfolio clicks."
         )
         
         prompt = f"""
-        Analyze the following job vacancy. 
-        IMPORTANT: This is for a JUNIOR developer.
+        Analyze the following job vacancy for a JUNIOR developer.
         
         Task:
-        1. Evaluate the vacancy (score 1-10). Give points for: clear Junior role, mentorship, modern stack. 
-           Subtract points if it looks like they want a Senior for a Junior salary.
-        2. Write a Cover Letter using Chris Voss methodology:
-           - Use Labeling: "Здається, ви шукаете когось, кто вже має досвід з React, але готовий швидко вчитися..."
-           - Use a Calibrated Question at the end: "Як на вашу думку, чи можу я принести користь вашій команді з моїм запалом до навчання?"
-           - Keep it short and human.
-        3. Identify red flags (no salary, long interview process, etc.).
+        1. Evaluate the vacancy (score 1-10).
+        2. Write a "Killer" Cover Letter that SELLS the candidate.
+           - CRITICAL: You MUST include this portfolio link: {settings.PORTFOLIO_URL}
+           - CONTEXT: Don't just paste the link. Say something like: "I recently implemented a similar [Technology from job desc] feature in my portfolio: {settings.PORTFOLIO_URL}"
+           - TONE: Confident, hungry to learn, professional.
+           - ENDING: Use a Call to Action (CTA) asking them to visit the site.
+        3. Identify red flags.
         
         Output MUST be a STRICT JSON object:
         {{

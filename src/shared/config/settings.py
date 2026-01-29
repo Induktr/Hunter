@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
     GEMINI_KEY: str = os.getenv("GEMINI_KEY", "")
     ADMIN_ID: int = os.getenv("ADMIN_ID", 0)
+    TAVILY_API_KEY: str = os.getenv("TAVILY_API_KEY", "")
     # LinkedIn Settings
     LINKEDIN_KEYWORDS: list[str] = ["Junior React", "Junior Frontend", "Junior JavaScript"]
     LINKEDIN_LOCATION: str = "Europe" # Changed location to Europe as an example, feel free to change
@@ -23,6 +24,9 @@ class Settings(BaseSettings):
     UPWORK_KEYWORDS: list[str] = ["React", "Next.js", "TypeScript"]
     UPWORK_COOKIE: str = os.getenv("UPWORK_COOKIE", "")
     UPWORK_MIN_CONNECTS: int = 15
+    
+    # Marketing Settings
+    PORTFOLIO_URL: str = "https://induktr-portfolio.vercel.app/"
     
     CHANNELS_FILE: Path = Path(__file__).parent / "channels.json"
 

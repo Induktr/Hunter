@@ -6,3 +6,6 @@ pydantic-settings
 structlog
 httpx
 beautifulsoup4
+pandas
+xlsxwriter
+tavily-python

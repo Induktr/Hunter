@@ -1,6 +1,6 @@
 from aiogram import Bot
-from config.settings import settings
-from core.logger import logger
+from src.shared.config.settings import settings
+from src.shared.core.logger import logger
 
 class Notifier:
     """
@@ -36,5 +36,21 @@ class Notifier:
             )
         except Exception as e:
             logger.error(f"Failed to send notification: {e}")
+
+    async def send_research_report(self, filepath: str, topic: str):
+        """
+        Sends the generated Excel research report to the admin.
+        """
+        from aiogram.types import FSInputFile
+        
+        try:
+            document = FSInputFile(filepath)
+            await self.bot.send_document(
+                chat_id=settings.ADMIN_ID,
+                document=document,
+                caption=f"✅ Research completed: {topic}"
+            )
+        except Exception as e:
+            logger.error(f"Failed to send research report: {e}")
 
 notifier = Notifier()

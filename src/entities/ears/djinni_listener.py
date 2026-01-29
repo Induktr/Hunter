@@ -1,11 +1,11 @@
 import asyncio
 import httpx
 from bs4 import BeautifulSoup
-from config.settings import settings
-from core.logger import logger
-from brain.filters import ContentFilter
-from brain.ai_client import ai_client
-from mouth.notifier import notifier
+from src.shared.config.settings import settings
+from src.shared.core.logger import logger
+from src.features.brain.filters import ContentFilter
+from src.shared.api.ai_client import ai_client
+from src.features.mouth.notifier import notifier
 
 class DjinniListener:
     """
@@ -45,29 +45,46 @@ class DjinniListener:
 
             async with httpx.AsyncClient(headers=self.headers, timeout=20) as client:
                 response = await client.get(self.base_url, params=params)
+                
                 if response.status_code != 200:
+                    logger.warning(f"Djinni: Request failed for {keyword} with status {response.status_code}")
                     continue
 
                 soup = BeautifulSoup(response.text, "html.parser")
-                # Djinni structure: list-jobs__item contains the link
-                job_items = soup.find_all("li", class_="list-jobs__item")
+                
+                # Robust Selector Strategy: Find all links that look like job posts
+                # Pattern: /jobs/12345-some-title/
+                job_links = soup.find_all("a", href=lambda href: href and "/jobs/" in href and href.split("/jobs/")[1][:1].isdigit())
 
-                for item in job_items:
+                if not job_links:
+                    logger.warning(f"Djinni: Connection OK (200), but NO job links found for '{keyword}'.")
+
+                for link_elem in job_links:
                     try:
-                        title_elem = item.find("a", class_="job-list-item__link")
-                        if not title_elem: continue
-                        
-                        link = "https://djinni.co" + title_elem["href"]
-                        job_id = title_elem["href"].split("/")[2].split("-")[0] # Simple ID extraction
-                        
+                        href = link_elem["href"]
+                        # Filter out company reviews or other noisy links if any matches pattern incorrectly
+                        if "reviews" in href: continue
+
+                        job_id = href.split("/")[2].split("-")[0]
                         if job_id in self.processed_ids:
                             continue
                         
                         self.processed_ids.add(job_id)
 
-                        title = title_elem.text.strip()
-                        description = item.find("div", class_="job-list-item__description")
-                        desc_text = description.text.strip() if description else ""
+                        title = link_elem.text.strip()
+                        if not title: continue # Skip empty links
+
+                        full_link = "https://djinni.co" + href
+                        
+                        # Find description: Usually in a sibling or parent container.
+                        # Strategy: Look for the closest container and extract text.
+                        # In Djinni, the link is usually inside a title h3/div, and description is next to it.
+                        container = link_elem.find_parent("div", class_=lambda c: c and "job" in c)
+                        if not container:
+                             # Fallback: just take the parent li or div
+                             container = link_elem.find_parent("li") or link_elem.find_parent("div")
+                        
+                        desc_text = container.get_text(separator="\n").strip() if container else title
                         
                         full_text = f"Title: {title}\nDescription: {desc_text}"
                         
@@ -80,7 +97,7 @@ class DjinniListener:
                         analysis = await ai_client.analyze_vacancy(full_text)
                         if analysis and analysis.get("score", 0) >= 7:
                             logger.info(f"Djinni Job score {analysis['score']} >= 7. Notifying...")
-                            await notifier.send_vacancy_alert(analysis, link)
+                            await notifier.send_vacancy_alert(analysis, full_link)
 
                     except Exception as e:
                         logger.debug(f"Error parsing Djinni item: {e}")
