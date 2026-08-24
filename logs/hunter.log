@@ -54,3 +54,1085 @@
 2026-01-28 09:27:30,624 - hunter - INFO - Researching: Топ 5 торговых AI агентов, по стоимости на платформах для продажи
 2026-01-28 09:27:41,866 - hunter - INFO - Excel file generated: docs\research_Топ_5_торговых_AI_агентов,_по_стоимости_на_платформах_для_продажи.xlsx
 2026-01-28 09:27:41,867 - hunter - INFO - Research complete. File saved to: docs\research_Топ_5_торговых_AI_агентов,_по_стоимости_на_платформах_для_продажи.xlsx
+2026-08-21 17:29:09,909 - hunter - INFO - ⏳ RateLimiter: Smoothing requests (3/3 RPM). Pausing for 2.1s...
+2026-08-24 12:16:35,835 - hunter - ERROR - ❌ Error in TSD v27.2.2 AI analysis: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-24 12:17:08,673 - hunter - ERROR - ❌ Error in TSD v27.2.2 AI analysis: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-24 12:17:27,053 - hunter - ERROR - ❌ Error in TSD v27.2.2 AI analysis: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}
+2026-08-24 12:20:05,009 - hunter - INFO - 🎯 TSD v27.2.2 Audit Completed: B2B SaaS Platform | Score: 9/10 | Pain: БОЛЕУТОЛЯЮЩЕЕ
+2026-08-24 12:24:11,519 - hunter - INFO - 🎯 TSD v27.2.2 Audit Completed: FinTech Liquidity Protocol | Score: 9/10 | Pain: БОЛЕУТОЛЯЮЩЕЕ
+2026-08-24 12:26:25,695 - hunter - INFO - 🎯 TSD v27.2.2 Audit Completed: FinTech Liquidity Protocol | Score: 9/10 | Pain: БОЛЕУТОЛЯЮЩЕЕ
+2026-08-24 12:26:25,888 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for FinTech Liquidity Protocol
+2026-08-24 12:38:23,742 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: FinTech Liquidity Protocol | Score: 9/10
+2026-08-24 12:38:24,026 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for FinTech Liquidity Protocol
+2026-08-24 12:52:31,246 - hunter - INFO - Djinni: Found JUNIOR job: Junior Frontend Developer
+
+TenThousand
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $700
+2026-08-24 12:53:35,308 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: TenThousand | Score: 3/10
+2026-08-24 12:54:10,012 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: SysGears | Score: 4/10
+2026-08-24 12:56:30,165 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (Researcher Mode ACTIVE)...
+2026-08-24 12:56:30,166 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:56:30,167 - hunter - INFO - Starting lightweight LinkedIn listener (HTTP only)...
+2026-08-24 12:56:30,888 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 12:56:31,560 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 12:56:32,368 - hunter - ERROR - Critical error in main loop: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))
+2026-08-24 12:56:32,368 - hunter - INFO - Attempting to restart in 15 seconds...
+2026-08-24 12:56:33,432 - hunter - INFO - Djinni: Found JUNIOR job: Junior Frontend Developer
+
+TenThousand
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $700
+2026-08-24 12:56:33,480 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior UI Developer at Pixel Systems
+2026-08-24 12:56:33,646 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 12:57:11,932 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 12:57:11,932 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:57:11,932 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:57:11,933 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 12:57:11,933 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 12:57:12,643 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 12:57:12,644 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 12:57:13,404 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 12:57:13,404 - hunter - INFO - Starting lightweight LinkedIn listener (HTTP only)...
+2026-08-24 12:57:14,309 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))
+2026-08-24 12:57:14,309 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:57:15,256 - hunter - INFO - Djinni: Found JUNIOR job: Junior Frontend Developer
+
+TenThousand
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $700
+2026-08-24 12:57:15,307 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior UI Developer at Pixel Systems
+2026-08-24 12:57:15,453 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 12:57:31,190 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 12:57:44,324 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:57:44,324 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:57:44,423 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 12:57:44,423 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:57:46,994 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 12:57:47,957 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Pixel Systems | Score: 7/10
+2026-08-24 12:57:48,225 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Pixel Systems
+2026-08-24 12:57:48,227 - hunter - INFO - LinkedIn: Found JUNIOR job: Graduate Programme 2027: Software Engineer (Frontend) at Revolut
+2026-08-24 12:57:59,625 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: TenThousand | Score: 4/10
+2026-08-24 12:58:01,997 - hunter - INFO - Upwork: Scan completed (999 connects left), sleeping for 20 minutes...
+2026-08-24 12:58:14,430 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:58:14,430 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:58:14,506 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 12:58:14,506 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:58:25,702 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: GlobalLogic | Score: 6/10
+2026-08-24 12:58:37,873 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Revolut | Score: 6/10
+2026-08-24 12:58:37,874 - hunter - INFO - LinkedIn: Found JUNIOR job: Desarrollador/a React (con Inglés) at Devoteam
+2026-08-24 12:58:44,509 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:58:44,509 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:58:44,564 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 12:58:44,565 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:59:14,579 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:59:14,579 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:59:14,628 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 12:59:14,629 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:59:18,541 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Devoteam | Score: 7/10
+2026-08-24 12:59:18,800 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Devoteam
+2026-08-24 12:59:18,801 - hunter - INFO - LinkedIn: Found JUNIOR job: Associate Frontend Developer at Gulf Associates
+2026-08-24 12:59:20,411 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: GlobalLogic | Score: 9/10
+2026-08-24 12:59:20,411 - hunter - INFO - Djinni Job score 9 >= 7. Notifying...
+2026-08-24 12:59:20,547 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for GlobalLogic
+2026-08-24 12:59:20,548 - hunter - INFO - Djinni: Found JUNIOR job: Intern, junior front end developer
+
+hanc.ai
+
+
+
+
+$
+2026-08-24 12:59:44,630 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 12:59:44,630 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 12:59:44,713 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 12:59:44,714 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 12:59:53,087 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: HANC AI | Score: 6/10
+2026-08-24 12:59:55,237 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Gulf Associates | Score: 8/10
+2026-08-24 12:59:55,452 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Gulf Associates
+2026-08-24 12:59:55,453 - hunter - INFO - LinkedIn: Found JUNIOR job: Fullstack Developer (React/Node.js) (Remote) at Hire Feed
+2026-08-24 13:00:14,715 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:00:14,716 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:00:14,768 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:00:14,768 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:00:26,833 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: 24Play | Score: 8/10
+2026-08-24 13:00:26,834 - hunter - INFO - Djinni Job score 8 >= 7. Notifying...
+2026-08-24 13:00:27,081 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for 24Play
+2026-08-24 13:00:44,778 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:00:44,779 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:00:44,843 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:00:44,843 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:00:54,791 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Hire Feed (on behalf of Enterprise Client) | Score: 9/10
+2026-08-24 13:00:54,967 - hunter - ERROR - ❌ Error sending Telegram HTML alert: Telegram server says - Bad Request: message is too long
+2026-08-24 13:00:55,015 - hunter - ERROR - Critical error sending message: Telegram server says - Bad Request: message is too long
+2026-08-24 13:00:55,016 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Software Engineer at THRYVE
+2026-08-24 13:01:04,025 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Phoenix Games | Score: 8/10
+2026-08-24 13:01:04,025 - hunter - INFO - Djinni Job score 8 >= 7. Notifying...
+2026-08-24 13:01:04,158 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Phoenix Games
+2026-08-24 13:01:04,159 - hunter - INFO - Djinni: Found JUNIOR job: Junior Frontend Developer (React / TypeScript)
+
+Rely CO
+
+
+
+
+$
+2026-08-24 13:01:14,852 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:01:14,853 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:01:15,056 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:01:15,056 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:01:32,138 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Rely CO | Score: 5/10
+2026-08-24 13:01:32,303 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:01:32,574 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: THRYVE | Score: 6/10
+2026-08-24 13:01:32,576 - hunter - INFO - LinkedIn: Found JUNIOR job: Frontend Engineer at SITA
+2026-08-24 13:01:33,902 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:01:37,479 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:01:39,091 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:01:45,063 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:01:45,064 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:01:45,120 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:01:45,120 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:01:52,635 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:01:54,250 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:02:15,127 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:02:15,127 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:02:15,191 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:02:15,191 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:02:23,008 - hunter - ERROR - ❌ Rate limit exhausted during TSD v27.2.2 analysis.
+2026-08-24 13:02:23,009 - hunter - INFO - Djinni: Found JUNIOR job: Верстальник / Junior Frontend Developer (AI-First)
+
+Європейська Брама
+
+
+
+
+$
+2026-08-24 13:02:23,257 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:02:24,480 - hunter - ERROR - ❌ Rate limit exhausted during TSD v27.2.2 analysis.
+2026-08-24 13:02:28,500 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:02:30,882 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Interface Developer at Olive Tree Consulting Group
+2026-08-24 13:02:31,995 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:02:37,218 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:02:43,732 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:02:45,194 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:02:45,194 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:02:45,312 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:02:45,313 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:02:52,448 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:07:37,715 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 1 active API key(s). Total RPM capacity: 15 RPM.
+2026-08-24 13:07:38,139 - hunter - WARNING - Fast Triage error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 21.438208573s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}
+2026-08-24 13:07:38,140 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 13:07:38,352 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:07:43,585 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:07:59,039 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:11:19,133 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:11:28,869 - hunter - INFO - 💾 DedupStore: Loaded 1 processed job IDs from disk.
+2026-08-24 13:11:28,879 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:11:28,880 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:11:28,881 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:11:28,882 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:11:28,884 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:11:29,659 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:11:29,660 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:11:30,471 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:11:30,471 - hunter - INFO - Starting lightweight LinkedIn listener (HTTP only)...
+2026-08-24 13:11:31,328 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))
+2026-08-24 13:11:31,328 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:11:32,857 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior UI Developer at Pixel Systems
+2026-08-24 13:11:32,862 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Frontend Developer
+
+TenThousand
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $700
+2026-08-24 13:11:33,055 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:11:33,223 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 26.355670856s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}
+2026-08-24 13:11:33,225 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:11:33,242 - hunter - INFO - Djinni: Analyzing new candidate job: Intern, junior front end developer
+
+hanc.ai
+
+
+
+
+$
+2026-08-24 13:11:39,145 - hunter - INFO - ⚡ [Fast Triage]: HANC AI | Score: 2/10 | Це позиція для інтернів/джуніорів із низьким бюджетом, що не відповідає критеріям high-ticket проекту.
+2026-08-24 13:11:39,145 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 13:11:39,153 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Frontend Developer (React / TypeScript)
+
+Rely CO
+
+
+
+
+$
+2026-08-24 13:11:39,274 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 20.300451889s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}
+2026-08-24 13:11:39,274 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:11:39,279 - hunter - INFO - Djinni: Analyzing new candidate job: Верстальник / Junior Frontend Developer (AI-First)
+
+Європейська Брама
+
+
+
+
+$
+2026-08-24 13:11:39,715 - hunter - INFO - ⚡ [Fast Triage]: Pixel Systems | Score: 4/10 | Junior-level UI position targeting lower budget ranges despite decent React stack alignment.
+2026-08-24 13:11:39,715 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:11:39,717 - hunter - INFO - LinkedIn: Found JUNIOR job: Graduate Programme 2027: Software Engineer (Frontend) at Revolut
+2026-08-24 13:11:44,412 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:11:44,706 - hunter - INFO - ⚡ [Fast Triage]: Європейська Брама | Score: 2/10 | Низькобюджетна вакансія рівню Junior для масової верстки сайтів за допомогою AI без вимог до глибокого стеку.
+2026-08-24 13:11:44,707 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 13:11:45,596 - hunter - INFO - ⚡ [Fast Triage]: Revolut | Score: 3/10 | Это долгосрочная корпоративная программа для выпускников (Graduate Programme), а не целевой B2B-проект или коммерческий лид.
+2026-08-24 13:11:45,596 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:11:45,598 - hunter - INFO - LinkedIn: Found JUNIOR job: Desarrollador/a React (con Inglés) at Devoteam
+2026-08-24 13:11:45,918 - hunter - INFO - Djinni: Analyzing new candidate job: Frontend Developer
+
+ONE MEDIA
+
+
+
+
+
+
+
+$
+2026-08-24 13:11:46,046 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 13.528640547s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2026-08-24 13:11:46,046 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:11:46,048 - hunter - INFO - Djinni: Analyzing new candidate job: JavaScript Game Lobby Developer
+
+JetArt Games
+
+
+
+
+
+
+
+$$
+2026-08-24 13:11:50,040 - hunter - INFO - ⚡ [Fast Triage]: JetArt Games | Score: 2/10 | Офісна вакансія по геймдеву (Pixi.js/Canvas) для початківців, яка не відповідає целевому стеку (React/Next.js/Python) та B2B SaaS профілю.
+2026-08-24 13:11:50,041 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 13:11:50,046 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Three.js Developer
+
+3DFrames
+
+
+
+
+
+
+
+$
+2026-08-24 13:11:50,160 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 9.413542699s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}
+2026-08-24 13:11:50,160 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:11:51,599 - hunter - INFO - ⚡ [Fast Triage]: Devoteam | Score: 4/10 | Гибридный формат работы в Мадриде для консалтинговой компании не соответствует критериям целевого B2B-лида.
+2026-08-24 13:11:51,599 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:11:51,600 - hunter - INFO - LinkedIn: Found JUNIOR job: Associate Frontend Developer at Gulf Associates
+2026-08-24 13:11:55,155 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:11:56,335 - hunter - INFO - Djinni: Analyzing new candidate job: Trainee Django developer
+
+RenovateHub
+
+
+
+ Швидко Відповідає
+      
+
+
+
+
+
+
+  
+  
+
+  
+    до $200
+2026-08-24 13:11:57,610 - hunter - INFO - ⚡ [Fast Triage]: Gulf Associates | Score: 3/10 | Associate-level role focusing on basic HTML, CSS, and JavaScript rather than the required React, Next.js, and TypeScript stack.
+2026-08-24 13:11:57,610 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:11:57,611 - hunter - INFO - LinkedIn: Found JUNIOR job: Fullstack Developer (React/Node.js) (Remote) at Hire Feed
+2026-08-24 13:11:58,625 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 948.655852ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}
+2026-08-24 13:11:58,626 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:11:58,626 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Software Engineer at THRYVE
+2026-08-24 13:12:01,321 - hunter - INFO - ⚡ [Fast Triage]: RenovateHub | Score: 1/10 | Trainee position with an extremely low budget of up to $200.
+2026-08-24 13:12:01,321 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 13:12:01,327 - hunter - INFO - Djinni: Analyzing new candidate job: Intern / Junior FullStack Developer (AI-assisted)
+
+commonsaltx
+
+
+
+
+$
+2026-08-24 13:12:01,351 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:12:01,352 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:12:01,486 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:12:01,486 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:12:05,159 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:12:05,276 - hunter - INFO - ⚡ [Fast Triage]: commonsaltx | Score: 2/10 | Низкобюджетная позиция уровня Intern/Junior, не соответствующая высокочековому контракту.
+2026-08-24 13:12:05,276 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 13:12:05,852 - hunter - INFO - ⚡ [Fast Triage]: THRYVE | Score: 3/10 | Junior role focused on Angular and Java rather than React/Next.js, requiring fluent German.
+2026-08-24 13:12:05,853 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:12:05,853 - hunter - INFO - LinkedIn: Found JUNIOR job: Frontend Engineer at SITA
+2026-08-24 13:12:06,306 - hunter - INFO - Djinni: Analyzing new candidate job: Technical Customer Support Specialist
+
+B2BSoft
+
+
+
+
+
+
+
+$$
+2026-08-24 13:12:06,427 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 53.148347087s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}
+2026-08-24 13:12:06,427 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:12:06,431 - hunter - INFO - Djinni: Analyzing new candidate job: Tech Customer Support - US working hours
+
+B2BSoft
+
+
+
+
+
+
+
+$$
+2026-08-24 13:12:09,795 - hunter - INFO - ⚡ [Fast Triage]: B2BSoft | Score: 1/10 | Вакансия не связана с разработкой — это позиция технической поддержки (Customer Support).
+2026-08-24 13:12:09,795 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 13:12:12,212 - hunter - INFO - ⚡ [Fast Triage]: SITA | Score: 8/10 | Крупный enterprise-клиент в сфере авиации с задачей по разработке высоконагруженных интерфейсов и хорошим бюджетом.
+2026-08-24 13:12:12,212 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 13:12:12,427 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 13:12:17,641 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 2/3 after 15s...
+2026-08-24 13:12:21,889 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:12:31,499 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:12:31,499 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:12:31,542 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:12:31,542 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:12:32,974 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 3/3 after 30s...
+2026-08-24 13:13:01,551 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:13:01,551 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:13:01,599 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:13:01,599 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:13:03,277 - hunter - ERROR - ❌ Rate limit exhausted during TSD v27.2.2 analysis.
+2026-08-24 13:13:09,444 - hunter - INFO - LinkedIn: Found JUNIOR job: Graduate Frontend Developer at JHC Consulting
+2026-08-24 13:13:16,038 - hunter - INFO - ⚡ [Fast Triage]: JHC Consulting | Score: 3/10 | Graduate-level position with generic frontend tech stack and low expected rate.
+2026-08-24 13:13:16,039 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:13:16,039 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Web Developer at Gulf Associates
+2026-08-24 13:13:22,118 - hunter - INFO - ⚡ [Fast Triage]: Gulf Associates | Score: 4/10 | Junior role with generic HTML/CSS/JS requirements and likely low budget potential.
+2026-08-24 13:13:22,118 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:13:22,119 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Interface Developer at Olive Tree Consulting Group
+2026-08-24 13:13:23,254 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 36.312326613s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '36s'}]}}
+2026-08-24 13:13:23,255 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:13:23,255 - hunter - INFO - LinkedIn: Found JUNIOR job: Junior Web Developer at Olive Tree Consulting Group
+2026-08-24 13:13:28,989 - hunter - INFO - ⚡ [Fast Triage]: Olive Tree Consulting Group | Score: 3/10 | Низкий уровень позиции (Junior) с базовым стеком HTML/CSS/JS и без упоминания требуемого стека React/Next.js/Python.
+2026-08-24 13:13:28,989 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:13:28,990 - hunter - INFO - LinkedIn: Found JUNIOR job: Associate Frontend Engineer at Pixel Systems
+2026-08-24 13:13:31,606 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:13:31,606 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:13:31,668 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:13:31,669 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:13:36,042 - hunter - INFO - ⚡ [Fast Triage]: Pixel Systems | Score: 6/10 | Clear operational pain replacing spreadsheets with a React dashboard, but it is an associate-level agency position with likely lower budget.
+2026-08-24 13:13:36,042 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (6/10).
+2026-08-24 13:13:36,042 - hunter - INFO - LinkedIn: Found JUNIOR job: Frontend Developer at Adentis Portugal
+2026-08-24 13:13:36,987 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 22.578253338s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2026-08-24 13:13:36,987 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:13:48,382 - hunter - INFO - LinkedIn: Scan completed, sleeping for 15 minutes...
+2026-08-24 13:14:01,682 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:14:01,683 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:14:01,728 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:14:01,729 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:14:31,740 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:14:31,740 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:14:31,851 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:14:31,852 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:15:01,863 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:15:01,863 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:15:01,908 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:15:01,909 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:15:31,915 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:15:31,916 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:15:31,984 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:15:31,985 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:15:33,687 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 13:15:33,689 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 13:15:33,689 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 13:15:33,693 - hunter - ERROR - System stopped by user: 
+2026-08-24 13:15:45,283 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:15:51,309 - hunter - INFO - 💾 DedupStore: Loaded 45 processed job IDs from disk.
+2026-08-24 13:15:51,313 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:15:51,314 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:15:51,314 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:15:51,315 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:15:51,315 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:15:52,028 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:15:52,029 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:15:52,774 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:15:52,774 - hunter - INFO - Starting lightweight LinkedIn listener (with DedupStore)...
+2026-08-24 13:15:53,547 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))
+2026-08-24 13:15:53,548 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:15:54,355 - hunter - INFO - LinkedIn: Found candidate job: Frontend Engineer at SITA
+2026-08-24 13:15:55,093 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:15:56,176 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 3.395182582s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}
+2026-08-24 13:15:56,177 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:15:58,189 - hunter - INFO - LinkedIn: Found candidate job: Frontend Engineer React (m/w/d) at Rocken®
+2026-08-24 13:16:02,994 - hunter - INFO - ⚡ [Fast Triage]: Rocken® | Score: 9/10 | Высокооплачиваемая вакансия в FinTech с отличным совпадением по стеку React и TypeScript.
+2026-08-24 13:16:02,995 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 13:16:05,838 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:16:14,688 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:16:16,602 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:16:23,557 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:16:23,558 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:16:23,604 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:16:23,604 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:16:26,612 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:16:45,595 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Rocken® (FinTech Partner) | Score: 9/10
+2026-08-24 13:16:45,595 - hunter - INFO - 🎯 LinkedIn High-Value job (9/10). Sending alert...
+2026-08-24 13:16:45,885 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Rocken® (FinTech Partner)
+2026-08-24 13:16:47,894 - hunter - INFO - LinkedIn: Found candidate job: React Developer at Adentis Portugal
+2026-08-24 13:16:48,923 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 10.662308103s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '10s'}]}}
+2026-08-24 13:16:48,924 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:16:50,937 - hunter - INFO - LinkedIn: Found candidate job: Junior UI Developer at Pixel Systems
+2026-08-24 13:16:53,608 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:16:53,608 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:16:53,663 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:16:53,663 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:16:59,207 - hunter - INFO - ⚡ [Fast Triage]: Pixel Systems | Score: 5/10 | Junior position with unstated budget, despite a good match on React tech stack and B2B logistics pain point.
+2026-08-24 13:16:59,207 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (5/10).
+2026-08-24 13:17:01,220 - hunter - INFO - LinkedIn: Found candidate job: React Front-End Developer at ADENTIS Italia
+2026-08-24 13:17:07,578 - hunter - INFO - ⚡ [Fast Triage]: ADENTIS Italia | Score: 4/10 | Requires 3 days on-site in Rome for a standard IT consultancy React position.
+2026-08-24 13:17:07,578 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:17:20,761 - hunter - INFO - LinkedIn: Found candidate job: Graduate Frontend Developer at JHC Consulting
+2026-08-24 13:17:21,980 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 37.591015545s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+2026-08-24 13:17:21,981 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:17:23,670 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:17:23,671 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:17:23,732 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:17:23,732 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:17:23,998 - hunter - INFO - LinkedIn: Found candidate job: Associate Frontend Developer at Gulf Associates
+2026-08-24 13:17:31,565 - hunter - INFO - ⚡ [Fast Triage]: Gulf Associates | Score: 4/10 | Junior/associate role focusing on basic HTML/CSS/JS without matching the preferred React, Next.js, and Python tech stack.
+2026-08-24 13:17:31,565 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:17:33,572 - hunter - INFO - LinkedIn: Found candidate job: Junior Web Developer at Gulf Associates
+2026-08-24 13:17:41,617 - hunter - INFO - ⚡ [Fast Triage]: Gulf Associates | Score: 3/10 | Junior position requiring basic HTML/CSS/JS without explicit React, Next.js, or Python experience.
+2026-08-24 13:17:41,617 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:17:43,624 - hunter - INFO - LinkedIn: Found candidate job: Junior Interface Developer at Olive Tree Consulting Group
+2026-08-24 13:17:44,660 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 14.911539199s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+2026-08-24 13:17:44,661 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:17:46,668 - hunter - INFO - LinkedIn: Found candidate job: Junior Web Developer at Olive Tree Consulting Group
+2026-08-24 13:17:53,742 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:17:53,742 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:17:53,787 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:17:53,788 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:17:56,835 - hunter - INFO - ⚡ [Fast Triage]: Olive Tree Consulting Group | Score: 3/10 | Junior position with basic HTML/CSS/JS stack, lacking the target tech stack (React, Next.js, Python) and high-ticket potential.
+2026-08-24 13:17:56,836 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:17:58,841 - hunter - INFO - LinkedIn: Found candidate job: Associate Frontend Engineer at Pixel Systems
+2026-08-24 13:18:07,733 - hunter - INFO - ⚡ [Fast Triage]: Pixel Systems | Score: 6/10 | Clear logistics dashboard pain and React stack match, but an associate-level position suggests lower rate potential.
+2026-08-24 13:18:07,733 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (6/10).
+2026-08-24 13:18:09,739 - hunter - INFO - LinkedIn: Found candidate job: Frontend Developer at Adentis Portugal
+2026-08-24 13:18:10,886 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 48.685109724s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+2026-08-24 13:18:10,887 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:18:12,904 - hunter - INFO - LinkedIn: Found candidate job: Graduate Programme 2027: Software Engineer (Frontend) at Revolut
+2026-08-24 13:18:20,907 - hunter - INFO - ⚡ [Fast Triage]: Revolut | Score: 3/10 | Это стажёрская программа на 2027 год для начинающих специалистов, не подходящая для высокочековых B2B-контрактов.
+2026-08-24 13:18:20,908 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:18:23,791 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:18:23,791 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:18:23,915 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:18:23,916 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:18:34,193 - hunter - INFO - LinkedIn: Found candidate job: Frontend JavaScript Web Integrator/Developer at NTT DATA Europe & Latam
+2026-08-24 13:18:42,879 - hunter - INFO - ⚡ [Fast Triage]: NTT DATA Europe & Latam | Score: 4/10 | Vue.js integrator role requiring local CDI presence in Luxembourg, lacking target React/Next.js/Python stack.
+2026-08-24 13:18:42,879 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 13:18:53,925 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:18:53,925 - hunter - INFO - Starting listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:18:53,974 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:18:53,975 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:18:54,905 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 13:18:57,901 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 13:18:57,901 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 13:18:57,901 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 13:18:57,904 - hunter - ERROR - System stopped by user: 
+2026-08-24 13:19:11,963 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:19:15,705 - hunter - INFO - 💾 DedupStore: Loaded 69 processed job IDs from disk.
+2026-08-24 13:19:18,125 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:19:18,125 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:19:18,125 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:19:18,126 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:19:18,127 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:19:18,742 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:19:18,742 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:19:19,378 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:19:19,378 - hunter - INFO - Starting lightweight LinkedIn listener (with DedupStore)...
+2026-08-24 13:19:20,114 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))
+2026-08-24 13:19:20,115 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:19:21,960 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:19:33,078 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:19:41,471 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:19:44,429 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:19:44,747 - hunter - INFO - LinkedIn: Found candidate job: Junior Software Engineer at THRYVE
+2026-08-24 13:19:46,012 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 13.550011601s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2026-08-24 13:19:46,013 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:19:50,126 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:19:50,126 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:19:50,217 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:19:50,217 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:19:54,438 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:19:58,026 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 13:20:20,219 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:20:20,219 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:20:20,268 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:20:20,268 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:20:50,271 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:20:50,271 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:20:50,324 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:20:50,324 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:21:20,340 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:21:20,340 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:21:20,390 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:21:20,391 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:21:50,400 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:21:50,400 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:21:50,463 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:21:50,468 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:22:20,476 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:22:20,476 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:22:20,526 - hunter - ERROR - ⚠️ Listener 'Telegram Channel Listener' encountered an error: The authorization key (session file) was used under two different IP addresses simultaneously, and can no longer be used. Use the same session exclusively, or use different sessions (caused by GetUsersRequest)
+2026-08-24 13:22:20,526 - hunter - INFO - ⏳ Listener 'Telegram Channel Listener' will restart in 30 seconds...
+2026-08-24 13:22:28,386 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 13:22:28,386 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 13:22:28,386 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 13:22:28,389 - hunter - ERROR - System stopped by user: 
+2026-08-24 13:23:52,153 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:23:56,397 - hunter - INFO - 💾 DedupStore: Loaded 72 processed job IDs from disk.
+2026-08-24 13:23:58,966 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:23:58,967 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:23:58,967 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:23:58,968 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:23:58,968 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:23:59,581 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:23:59,581 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:24:00,179 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:24:00,179 - hunter - INFO - Starting lightweight LinkedIn listener (with DedupStore)...
+2026-08-24 13:24:02,357 - hunter - INFO - LinkedIn: Found candidate job: Desarrollador/a React (con Inglés) at Devoteam
+2026-08-24 13:24:02,537 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:24:02,570 - hunter - INFO - ✅ Telegram Listener is connected and actively listening in real-time.
+2026-08-24 13:24:03,698 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 55.862441129s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}
+2026-08-24 13:24:03,698 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:24:05,711 - hunter - INFO - LinkedIn: Found candidate job: Fullstack Developer (React/Node.js) (Remote) at Hire Feed
+2026-08-24 13:24:13,259 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:24:22,101 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:24:24,053 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:24:25,428 - hunter - INFO - ⚡ [Fast Triage]: Hire Feed | Score: 9/10 | Отличный стек (React/Node.js) и очень высокий чек ($230K-$280K/год).
+2026-08-24 13:24:25,428 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 13:24:34,054 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:25:12,830 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Hire Feed (Recruitment Agency for Client) | Score: 9/10
+2026-08-24 13:25:12,830 - hunter - INFO - 🎯 LinkedIn High-Value job (9/10). Sending alert...
+2026-08-24 13:25:13,113 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Hire Feed (Recruitment Agency for Client)
+2026-08-24 13:25:26,393 - hunter - INFO - LinkedIn: Found candidate job: Sviluppatore Front-End Vue.JS (Rif. 2026-249) at aizoOn Technology Consulting
+2026-08-24 13:25:27,479 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 32.087210079s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2026-08-24 13:25:27,480 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:25:29,497 - hunter - INFO - LinkedIn: Found candidate job: Junior Web Developer at Alpine Business Consulting
+2026-08-24 13:25:41,125 - hunter - INFO - ⚡ [Fast Triage]: Alpine Business Consulting | Score: 3/10 | Junior role focused on Oracle EPM and Power BI rather than the required React/Python full-stack.
+2026-08-24 13:25:41,125 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (3/10).
+2026-08-24 13:25:43,142 - hunter - INFO - LinkedIn: Found candidate job: Angular Frontend Development Apprenticeship at Synopsys Inc
+2026-08-24 13:25:56,857 - hunter - INFO - ⚡ [Fast Triage]: Synopsys Inc | Score: 2/10 | Стажировка по Angular не соответствует целевому стеку (React/Python) и уровню проектов.
+2026-08-24 13:25:56,857 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 13:26:20,099 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 13:32:38,365 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 13:32:38,366 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 13:32:38,366 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 13:32:38,377 - hunter - INFO - Listener 'Telegram Channel Listener' stopped.
+2026-08-24 13:32:38,380 - hunter - ERROR - System stopped by user: 
+2026-08-24 13:33:06,452 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:33:10,119 - hunter - INFO - 💾 DedupStore: Loaded 79 processed job IDs from disk.
+2026-08-24 13:33:12,769 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:33:12,769 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:33:12,770 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:33:12,770 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:33:12,771 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:33:13,381 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:33:13,381 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:33:13,956 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:33:13,957 - hunter - INFO - Starting lightweight LinkedIn listener (with DedupStore)...
+2026-08-24 13:33:16,164 - hunter - INFO - ✅ Telegram Listener is connected and actively listening in real-time.
+2026-08-24 13:33:16,214 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:33:27,329 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:33:27,786 - hunter - INFO - LinkedIn: Found candidate job: Junior UI Engineer at Tech Pipeline
+2026-08-24 13:33:29,617 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 29.944461288s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+2026-08-24 13:33:29,618 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 13:33:35,758 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:33:38,037 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:33:48,050 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:33:52,642 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 13:43:48,563 - hunter - INFO - 📊 TSD Lead Matrix Excel generated successfully: docs\test_tsd_matrix.xlsx
+2026-08-24 13:44:10,832 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 13:44:10,833 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 13:44:10,833 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 13:44:10,843 - hunter - INFO - Listener 'Telegram Channel Listener' stopped.
+2026-08-24 13:44:10,846 - hunter - ERROR - System stopped by user: 
+2026-08-24 13:45:28,650 - hunter - INFO - 🔑 GeminiKeyPool: Initialized with 3 active API key(s). Total RPM capacity: 45 RPM.
+2026-08-24 13:45:32,031 - hunter - INFO - 💾 DedupStore: Loaded 80 processed job IDs from disk.
+2026-08-24 13:45:32,726 - hunter - INFO - 🚀 Hunter AI Job Sniper is starting (All Listeners Active)...
+2026-08-24 13:45:32,726 - hunter - INFO - Starting listener: Telegram Channel Listener
+2026-08-24 13:45:32,726 - hunter - INFO - Starting real-time listener for channels: [-1001858256916, -1001791753287, -1001264195262, -1001320485967, -1001459344134, -1001216066174, -1001120288601, -1002849183616, -1001403800724]
+2026-08-24 13:45:32,728 - hunter - INFO - Starting listener: Djinni.co Scraper
+2026-08-24 13:45:32,728 - hunter - INFO - Starting Djinni listener for: ['JavaScript', 'React', 'Frontend']
+2026-08-24 13:45:33,355 - hunter - INFO - Starting listener: Upwork Scraper
+2026-08-24 13:45:33,355 - hunter - INFO - Starting Upwork listener (Min connects: 15)...
+2026-08-24 13:45:34,114 - hunter - INFO - Starting listener: LinkedIn Scraper
+2026-08-24 13:45:34,114 - hunter - INFO - Starting lightweight LinkedIn listener (with DedupStore)...
+2026-08-24 13:45:36,337 - hunter - INFO - ✅ Telegram Listener is connected and actively listening in real-time.
+2026-08-24 13:45:36,451 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 13:45:47,556 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 13:45:55,849 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 13:45:58,830 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 13:46:08,842 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 13:46:09,119 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 14:01:04,400 - hunter - INFO - Djinni: Analyzing new candidate job: Wedding Video Editor (Ukrainian-speaking)
+
+SemMedia
+
+
+
+ Швидко Відповідає
+      
+
+
+
+
+
+$
+2026-08-24 14:01:04,753 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 54.784268783s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+2026-08-24 14:01:04,754 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 14:01:12,765 - hunter - INFO - LinkedIn: Found candidate job: JSX/JavaScript Developer at Format
+2026-08-24 14:01:12,919 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 14:01:19,843 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 14:01:22,330 - hunter - INFO - ⚡ [Fast Triage]: Format | Score: 5/10 | Junior/mid position focused primarily on creating JSX templates using internal tooling rather than full-stack software development.
+2026-08-24 14:01:22,330 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (5/10).
+2026-08-24 14:01:23,918 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 14:01:24,348 - hunter - INFO - LinkedIn: Found candidate job: Front-end Engineer (JavaScript, React) at Sundayy
+2026-08-24 14:01:34,766 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 14:01:34,987 - hunter - INFO - ⚡ [Fast Triage]: Pigment | Score: 9/10 | High-ticket enterprise B2B SaaS company with massive funding looking for a React frontend engineer for complex data visualizations.
+2026-08-24 14:01:34,987 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 14:01:35,372 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 14:01:44,776 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 14:02:21,120 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Sundayy / Pigment | Score: 9/10
+2026-08-24 14:02:21,120 - hunter - INFO - 🎯 LinkedIn High-Value job (9/10). Sending alert...
+2026-08-24 14:02:21,346 - hunter - ERROR - ❌ Error sending Telegram HTML alert: Telegram server says - Bad Request: message is too long
+2026-08-24 14:02:21,388 - hunter - ERROR - Critical error sending message: Telegram server says - Bad Request: message is too long
+2026-08-24 14:02:55,820 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 14:16:29,661 - hunter - INFO - Djinni: Analyzing new candidate job: Customer support (Europe)
+
+Rocket Recruiters
+
+
+
+
+$$$
+2026-08-24 14:16:33,727 - hunter - INFO - ⚡ [Fast Triage]: Freedom24 | Score: 1/10 | Вакансия не связана с разработкой ПО (поддержка клиентов).
+2026-08-24 14:16:33,727 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 14:16:33,732 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Operations Manager
+
+Tech4You
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $700
+2026-08-24 14:16:34,020 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 25.508640034s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+2026-08-24 14:16:34,020 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 14:16:46,544 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 14:16:46,734 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 14:16:57,412 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 14:17:08,211 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 14:17:18,221 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 14:18:29,482 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 14:31:55,343 - hunter - INFO - Djinni: Analyzing new candidate job: Content Manager (SEO copywriting)
+
+Come Back Agency
+
+
+
+
+
+
+
+$
+2026-08-24 14:32:03,418 - hunter - INFO - ⚡ [Fast Triage]: SoftDoes | Score: 1/10 | Роль абсолютно не соответствует стеку разработчика, это позиция контент-менеджера и SEO-копирайтера.
+2026-08-24 14:32:03,418 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 14:32:17,187 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 14:32:19,979 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 14:32:30,875 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 14:32:41,762 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 14:32:51,766 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 14:34:03,297 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 14:47:40,134 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 14:47:53,509 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 14:48:04,548 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 14:48:15,374 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 14:48:25,382 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 14:49:37,528 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 15:03:02,388 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 15:03:27,157 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 15:03:38,027 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 15:03:48,925 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 15:03:58,929 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 15:05:11,565 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 15:18:12,159 - hunter - INFO - Djinni: Analyzing new candidate job: Customer Support Manager (USA, нічна зміна)
+
+Supplax
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $1000
+2026-08-24 15:18:16,169 - hunter - INFO - ⚡ [Fast Triage]: Supplax | Score: 1/10 | Вакансія Customer Support Manager не відповідає стеку розробки та має низький бюджет.
+2026-08-24 15:18:16,169 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 15:18:28,615 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 15:19:00,634 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 15:19:11,466 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 15:19:22,359 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 15:19:32,375 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 15:20:13,937 - hunter - INFO - LinkedIn: Found candidate job: Junior Web Entwickler (m/w/d) at FinMent
+2026-08-24 15:20:22,097 - hunter - INFO - ⚡ [Fast Triage]: FinMent | Score: 5/10 | Хорошее совпадение по фреймворкам (React, Next.js, TS), но позиция Junior ориентирована на найм джуниора с ограниченным бюджетом.
+2026-08-24 15:20:22,097 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (5/10).
+2026-08-24 15:20:56,458 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 15:33:51,320 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 15:34:34,075 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 15:34:44,898 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 15:34:55,753 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 15:35:05,765 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 15:36:30,326 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 15:49:01,327 - hunter - INFO - Djinni: Analyzing new candidate job: Unity 3D аніматор (Motion Designer, Animator, 3d, Blender)
+
+Knopa Studio
+
+
+
+
+
+  
+  
+
+  
+    до $1400
+2026-08-24 15:49:10,474 - hunter - INFO - ⚡ [Fast Triage]: Knopa Studio | Score: 1/10 | Полное несоответствие стеку технологий (Unity 3D и анимация вместо FullStack) и низкий бюджет до $1400.
+2026-08-24 15:49:10,475 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 15:49:23,100 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 15:50:07,590 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 15:50:18,498 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 15:50:29,352 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 15:50:39,356 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 15:52:04,193 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 16:04:51,467 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 16:05:42,390 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 16:05:53,897 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 16:06:05,491 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 16:06:15,495 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 16:07:22,293 - hunter - INFO - LinkedIn: Found candidate job: Développeur Front-End - ReactJS (F/H) at SII Group Romania
+2026-08-24 16:07:40,339 - hunter - INFO - ⚡ [Fast Triage]: SII Group Romania | Score: 4/10 | Стандартная вакансия ESN-компании на найм штатного React-разработчика без прямого выхода на высокобюджетный проект.
+2026-08-24 16:07:40,340 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 16:08:04,215 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 16:20:02,786 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Customer Success Manager
+
+MaybeWorks
+
+
+
+
+
+
+
+$
+2026-08-24 16:20:03,218 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 56.282863393s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2026-08-24 16:20:03,219 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 16:20:03,227 - hunter - INFO - Djinni: Analyzing new candidate job: Junior / Strong Junior Frontend Developer
+
+TenThousand
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $800
+2026-08-24 16:20:18,148 - hunter - INFO - ⚡ [Fast Triage]: TenThousand | Score: 2/10 | Низкий бюджет до $800 и позиция уровня Junior не соответствуют критериям высокого чека.
+2026-08-24 16:20:18,149 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (2/10).
+2026-08-24 16:20:34,981 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 16:21:18,653 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 16:21:30,257 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 16:21:41,856 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 16:21:51,867 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 16:23:40,289 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 16:36:02,352 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 16:36:55,061 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 16:37:06,651 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 16:37:18,225 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 16:37:28,235 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 16:38:42,157 - hunter - INFO - LinkedIn: Found candidate job: Consultant Front React at WHIZE
+2026-08-24 16:38:50,646 - hunter - INFO - ⚡ [Fast Triage]: WHIZE | Score: 5/10 | Французская вакансия в штат (CDI) для React/TS консультанта без фокусировки на Python/Next.js и проектный B2B-контракт.
+2026-08-24 16:38:50,646 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (5/10).
+2026-08-24 16:39:16,694 - hunter - INFO - LinkedIn: Found candidate job: Frontend Engineer at Productive
+2026-08-24 16:39:23,716 - hunter - INFO - ⚡ [Fast Triage]: Productive | Score: 8/10 | High-paying B2B SaaS frontend position (3,600-6,000 EUR B2B) with a great tech match, though restricted to regional language speakers.
+2026-08-24 16:39:23,717 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 16:39:24,147 - hunter - WARNING - ⚠️ Rate Limit in TSD v27.2.2 analysis. Retry 1/3 after 5s...
+2026-08-24 16:40:03,677 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: Productive | Score: 8/10
+2026-08-24 16:40:03,678 - hunter - INFO - 🎯 LinkedIn High-Value job (8/10). Sending alert...
+2026-08-24 16:40:03,909 - hunter - INFO - ✅ Telegram alert sent successfully (HTML mode) for Productive
+2026-08-24 16:40:15,929 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 17:08:47,495 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 17:08:55,551 - hunter - INFO - Djinni: Analyzing new candidate job: Trainee/Junior C#/.NET Engineer
+
+ABP
+
+
+
+
+
+  
+  
+
+  
+    до $1000
+2026-08-24 17:08:56,531 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 2.977476141s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2026-08-24 17:08:56,532 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 17:08:56,559 - hunter - INFO - Djinni: Analyzing new candidate job: Intership at Meduzzen
+
+Meduzzen
+2026-08-24 17:08:56,865 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 2.57337167s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}
+2026-08-24 17:08:56,866 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 17:09:01,545 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 17:09:02,172 - hunter - INFO - Djinni: Analyzing new candidate job: Mechanical engineer (Junior strong Test and Prototyping Engineer)
+
+Talented Dog Recruitment Agency
+
+
+
+
+
+ Швидко Відповідає
+      
+
+
+
+
+
+$$
+2026-08-24 17:09:14,160 - hunter - INFO - ⚡ [Fast Triage]: Talented Dog Recruitment Agency | Score: 1/10 | Вакансія не відповідає стеку розробки, це позиція інженера з механіки та тестування БПЛА.
+2026-08-24 17:09:14,161 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 17:09:14,338 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 17:09:24,344 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 17:09:24,997 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 17:09:28,297 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 17:31:20,700 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 17:31:32,329 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 17:31:44,900 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 17:31:45,117 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 17:31:55,123 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 17:31:55,401 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 17:47:00,692 - hunter - INFO - Djinni: Analyzing new candidate job: Junior SEO Outreach Specialist
+
+NeedMyLink
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $600
+2026-08-24 17:47:00,725 - hunter - INFO - LinkedIn: Found candidate job: Frontend Software Engineer (JavaScript/ React) at Motorola Solutions
+2026-08-24 17:47:00,867 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 17:47:02,626 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 56.809225177s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2026-08-24 17:47:02,626 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 17:47:12,416 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 17:47:16,036 - hunter - INFO - ⚡ [Fast Triage]: NeedMyLink | Score: 1/10 | The post is for a Junior SEO Outreach Specialist role with a budget under $600 and involves no software development.
+2026-08-24 17:47:16,036 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 17:47:16,042 - hunter - INFO - Djinni: Analyzing new candidate job: Junior Link Builder
+
+NeedMyLink
+
+
+
+
+
+
+
+
+  
+  
+
+  
+    до $600
+2026-08-24 17:47:16,446 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 43.069255307s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}
+2026-08-24 17:47:16,447 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 17:47:25,387 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 17:47:34,730 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 17:47:35,390 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 17:47:40,522 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 18:02:42,010 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 18:02:54,724 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 18:03:07,377 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 18:03:07,555 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 18:03:17,557 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 18:03:17,917 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 20:03:02,515 - hunter - WARNING - Djinni network error for JavaScript: [Errno 11001] getaddrinfo failed
+2026-08-24 20:03:04,700 - hunter - WARNING - LinkedIn network error for Junior React: [Errno 11001] getaddrinfo failed
+2026-08-24 20:03:05,083 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 20:03:12,719 - hunter - INFO - Djinni: Analyzing new candidate job: SEO Junior (we train you from scratch)
+
+CBD Local Inc.
+
+
+
+
+
+  
+  
+
+  
+    до $1500
+2026-08-24 20:03:16,989 - hunter - INFO - ⚡ [Fast Triage]: CBD Local Inc. | Score: 1/10 | This is a junior SEO position rather than a software development role, with low initial pay.
+2026-08-24 20:03:16,989 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 20:03:18,470 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 20:03:19,014 - hunter - INFO - Djinni: Analyzing new candidate job: Junior HelpDesk Engineer
+
+SKELAR
+
+
+🔥
+
+
+
+
+$$
+2026-08-24 20:03:24,040 - hunter - INFO - ⚡ [Fast Triage]: SKELAR | Score: 1/10 | Вакансия относится к IT-поддержке (HelpDesk), а не к FullStack разработке.
+2026-08-24 20:03:24,041 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 20:03:31,193 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 20:03:32,466 - hunter - INFO - LinkedIn: Found candidate job: Junior Full Stack Developer - Issuer Services at LSEG
+2026-08-24 20:03:37,966 - hunter - INFO - ⚡ [Fast Triage]: LSEG | Score: 4/10 | Junior enterprise position with generic stack details and typical corporate hiring overhead.
+2026-08-24 20:03:37,966 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (4/10).
+2026-08-24 20:03:38,121 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 20:03:41,207 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 20:03:49,974 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 20:18:44,787 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 20:18:54,677 - hunter - INFO - LinkedIn: Found candidate job: React Native Developer at Sisal
+2026-08-24 20:18:57,015 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 20:19:01,058 - hunter - INFO - ⚡ [Fast Triage]: Sisal | Score: 1/10 | Компания относится к сферы гемблинга, а позиция сосредоточена на мобильной разработке на React Native.
+2026-08-24 20:19:01,059 - hunter - INFO - 🚫 [Quota Saver]: Skipping deep TSD audit for low-score job (1/10).
+2026-08-24 20:19:03,076 - hunter - INFO - LinkedIn: Found candidate job: Developer (React, Next.js, NestJS) at act digital
+2026-08-24 20:19:08,492 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 20:19:11,093 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 20:19:11,161 - hunter - INFO - ⚡ [Fast Triage]: act digital | Score: 7/10 | Strong stack match (React, Next.js, NestJS) for a senior long-term enterprise project, though requires hybrid presence in Portugal.
+2026-08-24 20:19:11,161 - hunter - INFO - 💎 [High-Value Lead Detected]: Launching Full TSD v27.2.2 Cognitive Audit...
+2026-08-24 20:19:18,496 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 20:19:58,901 - hunter - INFO - 🎯 TSD v27.2.2 Full Checklist Audit Completed: act digital | Score: 4/10
+2026-08-24 20:20:00,908 - hunter - INFO - LinkedIn: Found candidate job: React Native Developer at Sisal Hub Albania
+2026-08-24 20:20:02,331 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 57.054231299s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}
+2026-08-24 20:20:02,332 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 20:20:29,067 - hunter - INFO - LinkedIn: Found candidate job: Junior Full-Stack Engineer. Gen AI @MarshTech at Marsh
+2026-08-24 20:20:30,450 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 28.933149696s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2026-08-24 20:20:30,451 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 20:20:42,470 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 20:34:23,111 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 20:34:35,843 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 20:34:41,393 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 20:34:47,386 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 20:34:57,404 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 20:35:44,859 - hunter - INFO - LinkedIn: Found candidate job: Experienced Front End developer (React) at YoungCapital - Studentjob.fr at Jobster
+2026-08-24 20:35:46,658 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 12.968862864s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2026-08-24 20:35:46,659 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 20:35:48,664 - hunter - INFO - LinkedIn: Found candidate job: FULL STACK APP/WEB DEVELOPER - React Native und/oder React, C# (w/m/d) at Interad - The .NET Experts
+2026-08-24 20:35:50,141 - hunter - WARNING - ⚠️ Rate Limit during Fast Triage: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 9.437007973s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}
+2026-08-24 20:35:50,141 - hunter - WARNING - Fast triage could not evaluate. Skipping to avoid quota exhaustion.
+2026-08-24 20:36:26,108 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 20:49:48,682 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 20:49:53,522 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 20:49:59,595 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 20:50:10,455 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 20:50:20,469 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 20:51:48,583 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 21:05:15,769 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 21:05:22,524 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 21:05:33,318 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 21:05:44,161 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 21:05:54,171 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 21:07:22,299 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 21:20:37,980 - hunter - INFO - ⏳ Djinni: Scan completed. Next adaptive check in 15 minutes...
+2026-08-24 21:20:55,985 - hunter - WARNING - Upwork: Request failed for React with status 403. Check Cookie!
+2026-08-24 21:21:06,846 - hunter - WARNING - Upwork: Request failed for Next.js with status 403. Check Cookie!
+2026-08-24 21:21:17,725 - hunter - WARNING - Upwork: Request failed for TypeScript with status 403. Check Cookie!
+2026-08-24 21:21:27,739 - hunter - INFO - ⏳ Upwork: Scan completed (999 connects left). Next check in 15 minutes...
+2026-08-24 21:22:56,268 - hunter - INFO - ⏳ LinkedIn: Scan completed. Next check in 15 minutes...
+2026-08-24 21:35:30,384 - hunter - INFO - Listener 'Djinni.co Scraper' stopped.
+2026-08-24 21:35:30,384 - hunter - INFO - Listener 'Upwork Scraper' stopped.
+2026-08-24 21:35:30,384 - hunter - INFO - Listener 'LinkedIn Scraper' stopped.
+2026-08-24 21:35:30,395 - hunter - INFO - Listener 'Telegram Channel Listener' stopped.
+2026-08-24 21:35:30,399 - hunter - ERROR - System stopped by user: 

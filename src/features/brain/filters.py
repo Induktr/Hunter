@@ -13,8 +13,8 @@ class ContentFilter:
     ]
     
     KEY_WORDS = [
-        r"junior", r"джуниор", r"джун", r"intern", r"стажер",
-        r"react", r"frontend", r"js", r"typescript", r"next\.js"
+        r"junior", r"джуниор", r"джун", r"middle", r"миддл", r"intern", r"стажер",
+        r"react", r"frontend", r"js", r"typescript", r"next.js"
     ]
 
     @classmethod

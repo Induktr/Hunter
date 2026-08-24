@@ -4,7 +4,7 @@ from src.shared.core.logger import logger
 
 class ExcelGenerator:
     """
-    Converts JSON research results into a professionally formatted Excel file.
+    Converts TSD-powered research results into a professionally formatted Excel matrix.
     """
     
     @staticmethod
@@ -16,32 +16,41 @@ class ExcelGenerator:
         try:
             df = pd.DataFrame(data)
             
-            # Ensure correct columns as per prompt requirements
-            # [Name, Location, Key Specs, Price/Value, Link]
-            expected_cols = ["Name", "Location", "Key Specs", "Price/Value", "Link"]
+            # Rich TSD Columns:
+            # ['Name', 'Location', 'Root Concept & Tech', 'Pain Type & Friction', 'Price/Value', 'SPOF & Risk Diagnosis', 'Outreach Pitch Hook', 'Link']
+            expected_cols = [
+                "Name",
+                "Location",
+                "Root Concept & Tech",
+                "Pain Type & Friction",
+                "Price/Value",
+                "SPOF & Risk Diagnosis",
+                "Outreach Pitch Hook",
+                "Link"
+            ]
+            
             for col in expected_cols:
                 if col not in df.columns:
                     df[col] = "N/A"
             
-            df = df[expected_cols] # Reorder
+            df = df[expected_cols] # Reorder to exact TSD structure
             
             # Create a Pandas Excel writer using XlsxWriter as the engine.
             filepath = os.path.join("docs", filename)
             os.makedirs("docs", exist_ok=True)
             
             writer = pd.ExcelWriter(filepath, engine='xlsxwriter')
-            df.to_excel(writer, index=False, sheet_name='ResearchData')
+            df.to_excel(writer, index=False, sheet_name='TSD_Lead_Matrix')
 
-            # Get the xlsxwriter workbook and worksheet objects.
             workbook = writer.book
-            worksheet = writer.sheets['ResearchData']
+            worksheet = writer.sheets['TSD_Lead_Matrix']
 
             # Freeze the top row (header) so it stays visible while scrolling
             worksheet.freeze_panes(1, 0)
 
             # --- Formatting ---
             
-            # Header Row Style: Dark Blue (#1B2A41) with White Bold text
+            # Header Row Style: Navy Blue (#1B2A41) with White Bold text
             header_format = workbook.add_format({
                 'bold': True,
                 'text_wrap': True,
@@ -52,8 +61,8 @@ class ExcelGenerator:
             })
 
             # Alternating Row Colors
-            even_row_format = workbook.add_format({'bg_color': '#F2F2F2', 'border': 1})
-            odd_row_format = workbook.add_format({'bg_color': '#FFFFFF', 'border': 1})
+            even_row_format = workbook.add_format({'bg_color': '#F8F9FA', 'border': 1, 'text_wrap': True, 'valign': 'top'})
+            odd_row_format = workbook.add_format({'bg_color': '#FFFFFF', 'border': 1, 'text_wrap': True, 'valign': 'top'})
             
             # Write headers with formatting
             for col_num, value in enumerate(df.columns.values):
@@ -64,20 +73,21 @@ class ExcelGenerator:
                 fmt = even_row_format if row_num % 2 == 0 else odd_row_format
                 for col_num in range(len(df.columns)):
                     val = df.iloc[row_num - 1, col_num]
+                    col_name = df.columns[col_num]
                     
-                    # Clickable Hyperlinks in "Link" column (which is the last one)
-                    if df.columns[col_num] == "Link" and str(val).startswith("http"):
-                         worksheet.write_url(row_num, col_num, val, string="Source Link", cell_format=fmt)
+                    # Clickable Hyperlinks in "Link" column
+                    if col_name == "Link" and str(val).startswith("http"):
+                         worksheet.write_url(row_num, col_num, val, string="Source Website", cell_format=fmt)
                     else:
                          worksheet.write(row_num, col_num, val, fmt)
 
-            # Auto-adjust columns width
+            # Auto-adjust columns width for readability
             for i, col in enumerate(df.columns):
                 column_len = max(df[col].astype(str).str.len().max(), len(col)) + 2
-                worksheet.set_column(i, i, min(column_len, 50)) # Cap at 50
+                worksheet.set_column(i, i, min(max(column_len, 15), 45))
 
             writer.close()
-            logger.info(f"Excel file generated: {filepath}")
+            logger.info(f"📊 TSD Lead Matrix Excel generated successfully: {filepath}")
             return filepath
             
         except Exception as e:

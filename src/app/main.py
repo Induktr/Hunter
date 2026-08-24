@@ -22,35 +22,42 @@ async def run_research(topic: str):
     else:
         logger.error("No results found.")
 
+async def supervised_listener(name: str, coro_func):
+    """
+    Supervisor wrapper: isolates each listener so that a crash in one
+    (e.g., Telethon session issue) does not kill the other scrapers.
+    """
+    while True:
+        try:
+            logger.info(f"Starting listener: {name}")
+            await coro_func()
+        except Exception as e:
+            logger.error(f"⚠️ Listener '{name}' encountered an error: {e}")
+            logger.info(f"⏳ Listener '{name}' will restart in 30 seconds...")
+            await asyncio.sleep(30)
+        except asyncio.CancelledError:
+            logger.info(f"Listener '{name}' stopped.")
+            break
+
 async def main():
     """
-    Main entry point. Runs Telegram, LinkedIn, Djinni and Upwork listeners.
+    Main entry point. Runs Telegram, LinkedIn, Djinni and Upwork listeners concurrently with supervisor isolation.
     """
-    
-    # Check for CLI research mode
     if len(sys.argv) > 1 and sys.argv[1] == "--research":
         topic = " ".join(sys.argv[2:]) if len(sys.argv) > 2 else "Future of AI 2026"
         await run_research(topic)
         return
 
-    logger.info("🚀 Hunter AI Job Sniper is starting (Researcher Mode ACTIVE)...")
-    
-    while True:
-        try:
-            # Запускаем все слушатели параллельно
-            await asyncio.gather(
-                tg_listener.start(),
-                linkedin_listener.start(),
-                djinni_listener.start(),
-                upwork_listener.start()
-            )
-        except Exception as e:
-            logger.error(f"Critical error in main loop: {e}")
-            logger.info("Attempting to restart in 15 seconds...")
-            await asyncio.sleep(15)
-        except KeyboardInterrupt:
-            logger.info("System stopped by user.")
-            break
+    logger.info("🚀 Hunter AI Job Sniper is starting (All Listeners Active)...")
+
+    # Run all listeners with independent supervision
+    await asyncio.gather(
+        supervised_listener("Telegram Channel Listener", tg_listener.start),
+        supervised_listener("Djinni.co Scraper", djinni_listener.start),
+        supervised_listener("Upwork Scraper", upwork_listener.start),
+        supervised_listener("LinkedIn Scraper", linkedin_listener.start),
+        return_exceptions=True
+    )
 
 if __name__ == "__main__":
     try:
