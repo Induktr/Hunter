@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Ensure project root is in python path
+sys.path.insert(0, os.path.abspath("."))
+
 import asyncio
 import threading
 import gradio as gr
@@ -23,7 +29,7 @@ worker_thread.start()
 
 # Gradio Web Interface for Monitoring and Manual Research
 async def perform_web_research(topic: str):
-    if not topic.strip():
+    if not topic or not topic.strip():
         return "⚠️ Please enter a topic for research."
     try:
         search_data = await search_engine.search(topic)
