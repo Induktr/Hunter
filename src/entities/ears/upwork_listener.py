@@ -24,8 +24,9 @@ class UpworkListener:
 
     async def start(self):
         if not settings.UPWORK_COOKIE:
-            logger.warning("Upwork: No UPWORK_COOKIE found in .env. Upwork monitor disabled.")
-            return
+            logger.info("Upwork: UPWORK_COOKIE is not configured. Upwork monitor sleeping...")
+            while not settings.UPWORK_COOKIE:
+                await asyncio.sleep(3600)
 
         logger.info(f"Starting Upwork listener (Min connects: {settings.UPWORK_MIN_CONNECTS})...")
         

@@ -13,6 +13,14 @@ from src.sensors.search_engine import search_engine
 from src.brain.ai_client import ai_researcher
 from src.shared.utils.excel_manager import excel_manager
 
+# Optional Hugging Face ZeroGPU decorator support
+try:
+    import spaces
+    gpu_decorator = spaces.GPU
+except ImportError:
+    def gpu_decorator(func):
+        return func
+
 # Function to run the Hunter background supervisor loop in a dedicated thread
 def start_background_hunter():
     loop = asyncio.new_event_loop()
@@ -28,12 +36,15 @@ worker_thread = threading.Thread(target=start_background_hunter, daemon=True)
 worker_thread.start()
 
 # Gradio Web Interface for Monitoring and Manual Research
-async def perform_web_research(topic: str):
+@gpu_decorator
+def perform_web_research_sync(topic: str):
     if not topic or not topic.strip():
         return "⚠️ Please enter a topic for research."
     try:
-        search_data = await search_engine.search(topic)
-        results = await ai_researcher.perform_research(topic, search_data['content'])
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        search_data = loop.run_until_complete(search_engine.search(topic))
+        results = loop.run_until_complete(ai_researcher.perform_research(topic, search_data['content']))
         if results:
             filepath = excel_manager.generate(results, filename=f"research_{topic.replace(' ', '_')}.xlsx")
             return f"✅ TSD Lead Matrix Generated! Found {len(results)} leads. File: {filepath}"
@@ -56,7 +67,7 @@ with gr.Blocks(title="Hunter AI Job Sniper", theme=gr.themes.Soft()) as demo:
             submit_btn = gr.Button("🚀 Run TSD Research", variant="primary", scale=1)
         
         output_box = gr.Textbox(label="Research Result", interactive=False)
-        submit_btn.click(fn=perform_web_research, inputs=topic_input, outputs=output_box)
+        submit_btn.click(fn=perform_web_research_sync, inputs=topic_input, outputs=output_box)
 
     with gr.Tab("ℹ️ System Info"):
         gr.Markdown("""
