@@ -1,9 +1,5 @@
+.env
 
-# Environment variables
-/.env
-
-# Logs
 logs
 
-# Python cache
 __pycache__
